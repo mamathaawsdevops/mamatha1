@@ -1,19 +1,22 @@
 #!/usr/bin/env groovy
 pipeline {
-    agent any
 
     stages {
         stage('Build') { 
             steps { 
-              echo "first step"
+                sh 'first step' 
             }
         }
         stage('Test'){
             steps {
-               echo "second step" 
+                sh 'second step' 
             }
         }
+        stage('Deploy') {
+            steps {
+                sh 'third step'
+            }
        
         }
     }
-
+}
