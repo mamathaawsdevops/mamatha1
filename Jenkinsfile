@@ -1,3 +1,4 @@
+#!/usr/bin/env groovy
 pipeline {
 
     stages {
@@ -15,6 +16,7 @@ pipeline {
             steps {
                 sh 'third step'
             }
+       
         }
     }
 }
