@@ -16,10 +16,7 @@ pipeline {
             steps {
                 sh 'third step'
             }
-        stage('checkout') {
-            steps {
-                sh 'third step'
-            }
+       
         }
     }
 }
