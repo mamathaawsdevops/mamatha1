@@ -23,6 +23,9 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo "third step"
+                echo "first step one"
+              echo "first step one"
+                
             }
         }
     }
