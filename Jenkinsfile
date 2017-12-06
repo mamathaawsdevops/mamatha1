@@ -11,6 +11,8 @@ pipeline {
             steps { 
               echo "first step one"
               echo "first step one"
+                echo "first step one"
+              echo "first step one"
             }
         }
         stage('Test'){
